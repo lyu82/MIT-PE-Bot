@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cookie='' #cookie here
+cookie='JSESSIONID=.....' #cookie here
 
 echo 'PE class code..'
 echo 'example: 0626-1'
