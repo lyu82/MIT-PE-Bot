@@ -2,6 +2,11 @@
 
 cookie='JSESSIONID=.....' #cookie here
 
+if [[ $cookie = "JSESSIONID=....." ]];then
+echo 'please replace cookie first'
+exit 1
+fi
+
 echo 'PE class code..'
 echo 'example: 0626-1'
 read term
