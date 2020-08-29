@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cookie='JSESSIONID=.....' #cookie here
+cookie='Cookie: JSESSIONID=.....' #cookie here
 
-if [[ $cookie = "JSESSIONID=....." ]];then
+if [[ $cookie = "Cookie: JSESSIONID=....." ]];then
 echo 'please replace cookie first'
 exit 1
 fi
